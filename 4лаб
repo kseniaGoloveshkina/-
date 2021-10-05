@@ -1,0 +1,31 @@
+#a=int(input())
+#b=int(input())
+#s=(a*b)
+#p=(2*(a+b))
+#print('s=',s)
+#print('p=',p)
+ 
+#d=int(input())
+#P=3.14
+#L=(d*P)
+#print('L=',L)
+ 
+#a=int(input())
+#b=int(input())
+#print((a+b)/2)
+ 
+#a=int(input())
+#b=int(input())
+#c=a*a
+#d=b*b
+#print((c+d),(c-d),(c*d),(c/d))
+ 
+a=int(input())
+b=int(input())
+if a<0:
+    a*=(-1)
+    print(a)
+if b<0:
+    b*=(-1)
+    print(b)
+print((a+b),(a-b),(a*b),(a/b))
