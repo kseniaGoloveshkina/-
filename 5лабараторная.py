@@ -1,0 +1,73 @@
+#(1)
+#from math import *
+#print("введите x1")
+#x1 = float(input())
+#print("введите y1")
+#y1 = float(input())
+#print("введите x2")
+#x2 = float(input())
+#print("введите y2")
+#y2 = float(input())
+#r1= sqrt((x2-x1)**2 + (y2-y1)**2)
+#print("Расстояние =", r1)
+
+#2
+#print("введите A")
+#A = float(input())
+#print("введите B")
+#B = float(input())
+#print("введите C")
+#C = float(input())
+
+#AC = abs(C-A)
+#BC = abs(C-B)
+#cy = (AC+BC)
+#print('AC=' ,AC)
+#print('BC=' ,BC)
+#print('Сумма=', cy)
+
+#3
+#print("введите A")
+#A = float(input())
+#print("введите B")
+#B = float(input())
+#print("введите C")
+#C = float(input())
+
+#AC = abs(A-C)
+#BC = abs(C-B)
+#p = (AC*BC)
+#print('AC=' ,AC)
+#print('BC=' ,BC)
+#print('Произведение=', p)
+
+#4
+#print("введите x1")
+#x1 = float(input())
+#print("введите y1")
+#y1 = float(input())
+#print("введите x2")
+#x2 = float(input())
+#print("введите y2")
+#y2 = float(input())
+
+#p = 2*(abs(x1-x2)+abs(y1-y2))
+#s = abs(x1-x2)*abs(y1-y2)
+#print("Периметр =", p)
+#print("Площадь =", s)
+
+#5
+x1 = float(input())
+y1 = float(input())
+x2 = float(input())
+y2 = float(input())
+x3 = float(input())
+y3 = float(input())
+a=(abs(x2-x1))+(abs(y2-y1))
+b=(abs(x3-x2))+(abs(y3-y2))
+c=(abs(x3-x1))+(abs(y3-y1))
+P=(a+b+c)
+p1= P/2
+s=abs(p1*(p1-a)*(p1-b)*(p1-c))
+print("Их периметр =", P)
+print("Их площадь =", s)
